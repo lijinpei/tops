@@ -1,0 +1,6 @@
+---
+BasedOnStyle: Google
+SeparateDefinitionBlocks: Always
+RemoveBracesLLVM: false
+InsertBraces: true
+...
