@@ -1,0 +1,3 @@
+add_subdirectory(config EXCLUDE_FROM_ALL)
+add_subdirectory(static_assert EXCLUDE_FROM_ALL)
+add_subdirectory(type_traits EXCLUDE_FROM_ALL)

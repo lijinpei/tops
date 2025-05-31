@@ -1,0 +1,11 @@
+add_executable(
+  test_exec_utils
+  test_exec_utils.cpp
+)
+target_link_libraries(
+  test_exec_utils
+  tops_utils
+  GTest::gtest
+  GTest::gtest_main
+)
+gtest_discover_tests(test_exec_utils)
