@@ -1,0 +1,13 @@
+add_executable(
+  test_special_reg
+  test_special_reg.cu
+)
+target_link_libraries(
+  test_special_reg
+  tops_gpu
+  GTest::gtest
+  absl::flags
+  absl::flags_parse
+  ${THRUST_TARGETS}
+)
+gtest_discover_tests(test_special_reg)
